@@ -17,7 +17,6 @@ func main() {
 	fmt.Println("Random second value is ", randomValue)
 	randomValue = randomWithRange(50, 100)
 	fmt.Println("Random third value is ", randomValue)
-
 }
 
 func randomWithRange(min, max int) int {
